@@ -3,8 +3,8 @@ import {
   Calendar,
   TrendingUp,
   TrendingDown,
-  DollarSign,
   Plus,
+  IndianRupee,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -188,7 +188,7 @@ export function Dashboard() {
                 ) : (
                   <div className="no-transactions">
                     <div className="no-transactions-content">
-                      <DollarSign className="no-transactions-icon" />
+                      <IndianRupee className="no-transactions-icon" />
                       <h3 className="no-transactions-title">
                         No transactions yet
                       </h3>
