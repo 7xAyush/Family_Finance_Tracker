@@ -34,7 +34,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 }
 
 function AppLayout({ children }: { children: React.ReactNode }) {
-  const isMobile = useMobile();
+  const isMobile = useIsMobile();
 
   return (
     <div className="app-layout">
