@@ -168,13 +168,14 @@ export function TransactionForm({
             </div>
 
             <div className="form-field">
-              <Label htmlFor="amount">Amount ($)</Label>
+              <Label htmlFor="amount">Amount (₹)</Label>
               <Input
                 id="amount"
                 type="number"
                 step="0.01"
                 placeholder="0.00"
-                {...register("amount", { valueAsNumber: true })}
+                {...register('amount', { valueAsNumber: true })}
+              />
               />
               {errors.amount && (
                 <p className="error-message">{errors.amount.message}</p>
