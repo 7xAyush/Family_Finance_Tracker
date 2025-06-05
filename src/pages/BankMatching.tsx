@@ -522,9 +522,9 @@ export function BankMatching() {
                 <code className="example-code">
                   Date,Description,Amount,Balance,Reference
                   <br />
-                  01/15/2024,"Grocery Store",-85.50,1234.50,REF123
+                  01/15/2024,"Grocery Store",-850.50,12345.50,REF123
                   <br />
-                  01/16/2024,"Salary Deposit",2500.00,3734.50,SAL456
+                  01/16/2024,"Salary Deposit",25000.00,37345.50,SAL456
                 </code>
               </div>
             </div>
