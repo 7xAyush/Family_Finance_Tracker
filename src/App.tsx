@@ -9,7 +9,7 @@ import { BankMatching } from "@/pages/BankMatching";
 import { Reports } from "@/pages/Reports";
 import { Login } from "@/pages/Login";
 import { NotFound } from "@/pages/NotFound";
-import { useMobile } from "@/hooks/use-mobile";
+import { useIsMobile } from "@/hooks/use-mobile";
 import "./App.css";
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
