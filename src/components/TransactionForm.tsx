@@ -174,8 +174,7 @@ export function TransactionForm({
                 type="number"
                 step="0.01"
                 placeholder="0.00"
-                {...register('amount', { valueAsNumber: true })}
-              />
+                {...register("amount", { valueAsNumber: true })}
               />
               {errors.amount && (
                 <p className="error-message">{errors.amount.message}</p>
