@@ -231,7 +231,7 @@ export class Analytics {
     const headers = [
       "Date",
       "Type",
-      "Amount",
+      "Amount (₹)",
       "Category",
       "Description",
       "Matched",
@@ -240,7 +240,7 @@ export class Analytics {
     const rows = transactions.map((t) => [
       t.date,
       t.type,
-      t.amount.toString(),
+      `₹${t.amount.toFixed(2)}`,
       t.category,
       t.description,
       t.isMatched ? "Yes" : "No",
