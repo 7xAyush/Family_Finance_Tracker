@@ -278,13 +278,11 @@ export function Transactions() {
             <div className="stats-summary">
               <div className="stats-grid">
                 <div className="stat-item">
-                  <span className="stat-label">Total Transactions</span>
-                  <span className="stat-value">{stats.total}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-label">Income</span>
-                  <span className="stat-value text-green-600">
-                    {stats.income}
+                  <span className="stat-label">Net Amount</span>
+                  <span
+                    className={`stat-value ${stats.totalAmount >= 0 ? "text-green-600" : "text-red-600"}`}
+                  >
+                    ₹{Math.abs(stats.totalAmount).toFixed(2)}
                   </span>
                 </div>
                 <div className="stat-item">
