@@ -95,7 +95,7 @@ A comprehensive web application for tracking household finances with bank statem
 
    ```bash
    git clone <repository-url>
-   cd expense-tracker
+   cd Family_Finance_Tracker
    ```
 
 2. **Install dependencies**
