@@ -8,7 +8,7 @@ import { Transactions } from "@/pages/Transactions";
 import { BankMatching } from "@/pages/BankMatching";
 import { Reports } from "@/pages/Reports";
 import { Login } from "@/pages/Login";
-import { NotFound } from "@/pages/NotFound";
+import NotFound from "@/pages/NotFound";
 import { useIsMobile } from "@/hooks/use-mobile";
 import "./App.css";
 
